@@ -1,0 +1,314 @@
+/* cards home page */
+
+.cards {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.cards h2 {
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+    border-radius: 10px;
+    margin: 12px 15px;
+    flex-basis: 270px;
+    flex-grow: 1;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card img {
+	width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform .2s;
+}
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.card figure {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -60px;
+    padding: 6px 8px;
+    font-size: 12px;
+    color: white;
+    background-color: #1F98F4;
+}
+
+.card-text {
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.card h3 {
+    padding: 20px 30px 20px;
+    font-size: 18px;
+}
+
+.card-link {
+    color: #242424;
+}
+
+/* card album */
+
+.card-album {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+    border-radius: 10px;
+    margin: 12px 15px;
+    flex-basis: 270px;
+    flex-grow: 1;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card-album img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform .2s;
+}
+.card-album img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.card-album figure {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -60px;
+    padding: 6px 8px;
+    font-size: 12px;
+    color: white;
+    background-color: #1F98F4;
+}
+
+.card-album h3 {
+    padding: 20px 30px 20px;
+    font-size: 18px;
+}
+
+/* card travels */
+
+.card-travels video {
+    width: 100%;
+    height: 262px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-travels {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+    border-radius: 10px;
+    margin: 12px 15px;
+    flex-basis: 270px;
+    flex-grow: 1;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-travels img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform .2s;
+}
+.card-travels img:hover {
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+.card-travels figure {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -60px;
+    padding: 6px 8px;
+    font-size: 12px;
+    color: white;
+    background-color: #1F98F4;
+}
+
+.card-travels h3 {
+    padding: 20px 30px 20px;
+    font-size: 18px;
+}
+
+.card-title {
+    margin-top: -40px;
+}
+
+/* card alban */
+
+.card-alban {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+}
+
+.alban video {
+    width: 320px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+.alban-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.alban p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: -50px;
+}
+
+/* card christine */
+
+.card-christine {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+}
+
+.christine img {
+    width: 360px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+.christine-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.christine p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: -50px;
+}
+
+/* card valentine */
+
+.card-valentine {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+}
+
+.valentine img {
+    width: 360px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+.valentine-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.valentine p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: -50px;
+}
+
+/* card garance */
+
+.card-garance {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+}
+
+.garance img {
+    width: 360px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+.garance-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.garance p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: -50px;
+}
+
+/* card christine */
+
+.card-esther {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(219, 223, 246, 0.7);
+}
+
+.esther img {
+    width: 360px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+}
+
+.esther-text {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.esther p {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: -50px;
+}

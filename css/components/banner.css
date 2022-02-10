@@ -1,0 +1,62 @@
+/* banner video */
+
+.banner video {
+	position: absolute;
+	padding-bottom: 80px;
+	min-width: 100%;
+	min-height: 100%;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+	transform: translate(-50%, -50%);
+	filter: brightness(0.8);
+}
+
+/* trailer banner video */
+
+.trailer video {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* about banner image */
+
+.banner img {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 65%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+/* banner general */
+
+.banner {
+	color: white;
+	padding: 115px 0px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.banner h1 {
+	font-family: PT Sans, sans-serif;
+	font-size: 100px;
+}
+
+.banner h2 {
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.banner-about h1 {
+	font-size: 50px;
+}

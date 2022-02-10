@@ -1,0 +1,232 @@
+.navbar-container{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-container {
+  width: 1120px;
+  margin: 80px auto;
+}
+
+.cards-container {
+  width: 1120px;
+  margin: 80px auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 40px auto 80px;
+}
+
+@media (max-width: 1200px) {
+  /* Pour un screen < 1200px, ce CSS doit être lu */
+  .banner-container {
+    width: 960px;
+  }
+  .cards-container {
+    width: 960px;
+  }
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un screen < 960px, ce CSS doit être lu */
+  .banner-container {
+    width: 700px;
+  }
+  .cards-container {
+    width: 700px;
+  }
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un screen < 720px, ce CSS doit être lu */
+  .banner-container {
+    width: 580px;
+  }
+  .cards-container {
+    width: 500px;
+  }
+  .container {
+    width: 500px;
+  }
+  /* nav element */
+  .nav-items {
+    display: none;
+  }
+  /* banner element */
+  .banner h1 {
+    transform: scale(0.5);
+    margin-top: -40px;
+    margin-bottom: -30px;
+  }
+  .btn-banner {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-transparent {
+    width: 226px;
+    margin-top: -10px;
+    margin-left: 2px;
+  }
+  .btn-white {
+    width: 226px;
+    margin-top: 6px;
+    margin-right: 2px;
+  }
+  /* card alban */
+  .card-alban {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .alban video {
+    width: 500px;
+    height: 170px;
+    object-position: center 28%;
+    transform: scale(2.2);
+  }
+  .alban-text {
+    margin-top: 90px;
+  }
+  /* card christine */
+  .card-christine {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .christine img {
+    width: 500px;
+    height: 170px;
+    object-position: center 12%;
+    transform: scale(2.2);
+  }
+  .christine-text {
+    margin-top: 90px;
+  }
+  /* card valentine */
+  .card-valentine {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .valentine img {
+    width: 500px;
+    height: 170px;
+    object-position: center 90%;
+    transform: scale(2.2);
+  }
+  .valentine-text {
+    margin-top: 90px;
+  }
+  /* card garance */
+  .card-garance {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .garance img {
+    width: 500px;
+    height: 170px;
+    object-position: 30px 18%;
+    transform: scale(2.2);
+  }
+  .garance-text {
+    margin-top: 90px;
+  }
+  /* card esther */
+  .card-esther {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .esther img {
+    width: 500px;
+    height: 170px;
+    object-position: 30px 30%;
+    transform: scale(2.2);
+  }
+  .esther-text {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un screen < 540px, ce CSS doit être lu */
+  .banner-container {
+    width: 580px;
+    margin-left: -30px;
+  }
+  .cards-container {
+    width: 360px;
+  }
+  .container {
+    width: 360px;
+  }
+  /* card alban */
+  .alban video {
+    width: 300px;
+    height: 150px;
+    object-position: center 28%;
+    transform: scale(2.2);
+  }
+  .alban-text {
+    margin-top: 80px;
+  }
+  /* card christine */
+  .christine img {
+    width: 300px;
+    height: 170px;
+    object-position: -20px 10%;
+    transform: scale(2.2);
+  }
+  /* card valentine */
+  .valentine img {
+    width: 300px;
+    height: 170px;
+    object-position: center 90%;
+    transform: scale(2.2);
+  }
+  /* card garance */
+  .garance img {
+    width: 300px;
+    height: 170px;
+    object-position: 50px 18%;
+    transform: scale(2.2);
+  }
+  /* card esther */
+  .esther img {
+    width: 300px;
+    height: 170px;
+    object-position: center 30%;
+    transform: scale(2.2);
+  }
+  /* cards biais element */
+  .btn-cards-biais {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-blue {
+    width: 180px;
+    margin-left: 3px;
+  }
+  .btn-blue-inverse {
+    width: 180px;
+    margin-top: 6px;
+    margin-right: 3px;
+  }

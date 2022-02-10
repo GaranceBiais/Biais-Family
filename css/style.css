@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Roboto);
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/nav.css");
+@import url("components/alban.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
